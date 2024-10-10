@@ -27,6 +27,9 @@
 * Планировщик по умолчанию стоит mq-deadline
 * kernel.shmmax = 18446744073692774399
 * overcommit_memory = 0
+![comment](images/33.png)
+
+Тест
 
 ![comment](images/test3.png)
 
