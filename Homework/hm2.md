@@ -28,7 +28,7 @@
 * kernel.shmmax = 18446744073692774399
 * overcommit_memory = 0
 
-![comment](images/33.png)
+![comment](images/test3.png)
 
 ### Для экономии оперативной памяти (для случаев где ее меньше 16Гб)
 
