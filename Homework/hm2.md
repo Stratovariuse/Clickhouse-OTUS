@@ -10,6 +10,8 @@
   
 # Решение
 
+Среда: установлен образ Debian 12 на VirtualBox. 8GB RAM 4CPU.
+
 ## Установка + загрузка датасета (UK Property Price Paid dataset)
 
 ![comment](images/22.png)
