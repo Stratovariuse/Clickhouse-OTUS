@@ -12,3 +12,25 @@
 
 ## Установка + загрузка датасета (UK Property Price Paid dataset)
 
+![comment](images/22.png)
+
+## Настройки
+
+Отключены THP
+Лимиты для root подняты до 100000
+Планировщик по умолчанию стоит mq-deadline
+kernel.shmmax = 18446744073692774399
+overcommit_memory = 0
+
+для экономии оперативной памяти (для случаев где ее меньше 16Гб)
+
+
+Можно еще уменьшить кол-во потоков, тогда нагрузка по ядра снижается (test2)
+SETTINGS max_threads = 1
+SETTINGS max_download_threads = 1
+SETTINGS input_format_parallel_parsing = 0
+SETTINGS output_format_parallel_formatting = 0
+65536000
+
+<max_block_size>8192</max_block_size> в profile для default
+<mark_cache_size replace="1">65536000</mark_cache_size> config.d/settings.conf
