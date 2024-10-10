@@ -13,8 +13,13 @@
 ## Установка + загрузка датасета (UK Property Price Paid dataset)
 
 ![comment](images/22.png)
+![comment](images/11.png)
 
 ## Настройки
+
+Первый тест до всех настроек
+
+![comment](images/test1.png)
 
 Отключены THP
 Лимиты для root подняты до 100000
