@@ -38,11 +38,12 @@
 ```
 
 Можно еще уменьшить кол-во потоков
+```
 SETTINGS max_threads = 1
 SETTINGS max_download_threads = 1
 SETTINGS input_format_parallel_parsing = 0
 SETTINGS output_format_parallel_formatting = 0
-65536000
+```
 
 ![comment](images/test2.png)
 
